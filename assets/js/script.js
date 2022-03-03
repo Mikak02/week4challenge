@@ -61,8 +61,8 @@ function selectAnswer(e) {
 
 function setStatusClass(element, correct) {
     clearStatusClass(element)
-    if (correct) {
-        correctElement.classlist.remove('hide')
+    if (correct = true) {
+        correctElement.classList.remove('hide')
     } else {
         wrongElement.classList.remove('hide')
     }
