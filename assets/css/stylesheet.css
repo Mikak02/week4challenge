@@ -6,16 +6,15 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
     display: flex;
 }
-
-#quiz-time-left {
-    align-items: flex-start;
-}
-
 
 .container {
     width:800px;
@@ -47,8 +46,20 @@ button:hover {
     background-color: rgb(240, 70, 240);
 }
 
-#correct, #wrong {
+#correct-line, #wrong {
     font-weight: lighter;
     border-top: solid 2px;
     color: gray;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+
+.hide {
+    display: none;
 }
