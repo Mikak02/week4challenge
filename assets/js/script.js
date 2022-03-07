@@ -5,7 +5,10 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 const correctElement = document.getElementById('correct-line')
 const wrongElement = document.getElementById('wrong')
 
+var timerEl = document.getElementById('quiz-time-left')
+
 let shuffledQuestions, currentQuestionIndex
+
 
 startButton.addEventListener('click', startGame)
 

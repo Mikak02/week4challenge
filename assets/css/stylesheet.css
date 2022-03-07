@@ -44,6 +44,7 @@ button {
 
 button:hover {
     background-color: rgb(240, 70, 240);
+    cursor: pointer;
 }
 
 #correct-line, #wrong {
@@ -63,3 +64,15 @@ button:hover {
 .hide {
     display: none;
 }
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+    background-color: rgb(240, 70, 240);
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
